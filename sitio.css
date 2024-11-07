@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #093d70;
+}
+.navbar-brand {   
+    font-size: 1.7rem;  
+}.titulo{
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    height: 500px;
+    background-image: url('/dist/img/lindo.jpeg');
+    
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-shadow: 2px 2px 5px #000;
+    filter: brightness(50%);
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+.content {
+    padding: 50px 0;
+    text-align: center;
+}
+.content h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+/* Ajustar el tamaño de las imágenes en el catálogo */
+.card img {
+    width: 100%;  /* Ajusta el ancho a 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Fondo celeste para el sector de catálogo */
+#catalogo {
+  
+    padding: 20px; /* Añadir un poco de espacio */
+   
+}
+
+.footer {
+    background-color: #062544;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}.container-content{
+    background-color: #093d70;
+    color: white;
+}.container-content1{
+    background-color: #093d70;
+    color: white;
+}.container-content2{
+    background-color: #031425;
+    
+}.letra{
+    color: white; 
+}.text-center{
+    color: white; 
+}.modal-body{
+    background-color: #0c4d8f;
+    color: white;
+}.custom-header{
+    background-color: #05325f;
+    color: white;  
+}
+
+
